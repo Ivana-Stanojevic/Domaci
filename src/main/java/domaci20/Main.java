@@ -13,8 +13,6 @@ public class Main {
         webDriver.manage().window().maximize();
 
 
-
-
         WebElement inputFullName= webDriver.findElement(By.id("userName"));
         inputFullName.sendKeys("Pera Peric");
 
